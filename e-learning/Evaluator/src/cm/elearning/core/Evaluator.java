@@ -6,5 +6,8 @@ package cm.elearning.core;
  * @author Njinga TCHAPTCHET
  */
 public class Evaluator {
+    public Evaluator(){
+        // test constructeur
+    }
 
 }
