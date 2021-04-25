@@ -5,9 +5,19 @@
         <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
             <code-name-base>cm.e_learning.learner.api</code-name-base>
             <suite-component/>
-            <module-dependencies/>
+            <module-dependencies>
+                <dependency>
+                    <code-name-base>cm.e_learning.knowledge_imparting.core</code-name-base>
+                    <build-prerequisite/>
+                    <compile-dependency/>
+                    <run-dependency>
+                        <specification-version>1.0</specification-version>
+                    </run-dependency>
+                </dependency>
+            </module-dependencies>
             <public-packages>
                 <package>cm.e_learning.learner.api</package>
+                <package>cm.e_learning.learner.api.tracking</package>
             </public-packages>
         </data>
     </configuration>
