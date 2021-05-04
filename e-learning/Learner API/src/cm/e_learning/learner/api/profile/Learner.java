@@ -1,4 +1,4 @@
-package cm.e_learning.learner.api;
+package cm.e_learning.learner.api.profile;
 
 /**
  * @document Learner

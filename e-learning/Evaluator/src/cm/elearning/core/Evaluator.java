@@ -5,7 +5,7 @@ import cm.e_learning.knowledge_imparting.core.Course;
 import cm.e_learning.knowledge_imparting.core.Curriculum;
 import cm.e_learning.knowledge_imparting.core.KnowledgeConcept;
 import cm.e_learning.knowledge_imparting.core.KnowledgeGraph;
-import cm.e_learning.learner.api.LearnerProfile;
+import cm.e_learning.learner.api.profile.LearnerProfile;
 import cm.e_learning.learner.api.tracking.LearnerEvaluationHistory;
 import cm.e_learning.learner.api.tracking.LearnerLessonHistory;
 

@@ -41,25 +41,15 @@ public interface Assessment {
     public void setLearnerPrerequisiteCompetencies(String learnerPrerequisiteCompetencies);
 
     /**
-     * @return the teacherPrerequisiteCompetencies
-     */
-    public String getTeacherPrerequisiteCompetencies();
-
-    /**
-     * @param teacherPrerequisiteCompetencies the
-     * teacherPrerequisiteCompetencies to set
-     */
-    public void setTeacherPrerequisiteCompetencies(String teacherPrerequisiteCompetencies);
-
-    /**
      * @return the knowledgeConceptlList
      */
-    public List<KnowledgeConcept> getKnowledgeConceptlList();
+    public List<KnowledgeConceptStrength> getKnowledgeConceptStrengthList();
 
     /**
-     * @param knowledgeConceptlList the knowledgeConceptlList to set
+     * @param knowledgeConceptStrengthList the knowledgeConceptStrengthList to
+     * set
      */
-    public void setKnowledgeConceptlList(List<KnowledgeConcept> knowledgeConceptlList);
+    public void setKnowledgeConceptStrengthList(List<KnowledgeConceptStrength> knowledgeConceptStrengthList);
 
     /**
      * @return the prerequisiteLessonList
@@ -70,4 +60,38 @@ public interface Assessment {
      * @param prerequisiteLessonList the prerequisiteLessonList to set
      */
     public void setPrerequisiteLessonList(List<Lesson> prerequisiteLessonList);
+
+    public class KnowledgeConceptStrength {
+
+        private KnowledgeConcept knowledgeConcept;
+        private double strength; // 0 ≤ strength ≤ 1
+
+        /**
+         * @return the knowledgeConcept
+         */
+        public KnowledgeConcept getKnowledgeConcept() {
+            return knowledgeConcept;
+        }
+
+        /**
+         * @param knowledgeConcept the knowledgeConcept to set
+         */
+        public void setKnowledgeConcept(KnowledgeConcept knowledgeConcept) {
+            this.knowledgeConcept = knowledgeConcept;
+        }
+
+        /**
+         * @return the strength
+         */
+        public double getStrength() {
+            return strength;
+        }
+
+        /**
+         * @param strength the strength to set
+         */
+        public void setStrength(double strength) {
+            this.strength = strength;
+        }
+    }
 }

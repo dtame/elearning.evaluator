@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.apisupport.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
-            <code-name-base>cm.e_learning.learner.api</code-name-base>
+            <code-name-base>cm.e_learning.tutor.core</code-name-base>
             <suite-component/>
             <module-dependencies>
                 <dependency>
@@ -14,11 +14,16 @@
                         <specification-version>1.0</specification-version>
                     </run-dependency>
                 </dependency>
+                <dependency>
+                    <code-name-base>cm.e_learning.learner.api</code-name-base>
+                    <build-prerequisite/>
+                    <compile-dependency/>
+                    <run-dependency>
+                        <specification-version>1.0</specification-version>
+                    </run-dependency>
+                </dependency>
             </module-dependencies>
-            <public-packages>
-                <package>cm.e_learning.learner.api.profile</package>
-                <package>cm.e_learning.learner.api.tracking</package>
-            </public-packages>
+            <public-packages/>
         </data>
     </configuration>
 </project>

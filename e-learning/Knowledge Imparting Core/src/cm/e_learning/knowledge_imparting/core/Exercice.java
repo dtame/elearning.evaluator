@@ -13,8 +13,7 @@ public class Exercice implements Assessment {
     private String summary;
     private List<GradeLevel> gradeLevel;
     private String learnerPrerequisiteCompetencies;
-    private String teacherPrerequisiteCompetencies;
-    private List<KnowledgeConcept> knowledgeConceptlList;
+    private List<KnowledgeConceptStrength> knowledgeConceptStrengthList;
     private List<Lesson> prerequisiteLessonList;
 
     /**
@@ -67,36 +66,18 @@ public class Exercice implements Assessment {
     }
 
     /**
-     * @return the teacherPrerequisiteCompetencies
+     * @return the knowledgeConceptStrengthList
      */
-    @Override
-    public String getTeacherPrerequisiteCompetencies() {
-        return teacherPrerequisiteCompetencies;
+    public List<KnowledgeConceptStrength> getKnowledgeConceptStrengthList() {
+        return knowledgeConceptStrengthList;
     }
 
     /**
-     * @param teacherPrerequisiteCompetencies the
-     * teacherPrerequisiteCompetencies to set
+     * @param knowledgeConceptStrengthList the knowledgeConceptStrengthList to
+     * set
      */
-    @Override
-    public void setTeacherPrerequisiteCompetencies(String teacherPrerequisiteCompetencies) {
-        this.teacherPrerequisiteCompetencies = teacherPrerequisiteCompetencies;
-    }
-
-    /**
-     * @return the knowledgeConceptlList
-     */
-    @Override
-    public List<KnowledgeConcept> getKnowledgeConceptlList() {
-        return knowledgeConceptlList;
-    }
-
-    /**
-     * @param knowledgeConceptlList the knowledgeConceptlList to set
-     */
-    @Override
-    public void setKnowledgeConceptlList(List<KnowledgeConcept> knowledgeConceptlList) {
-        this.knowledgeConceptlList = knowledgeConceptlList;
+    public void setKnowledgeConceptStrengthList(List<KnowledgeConceptStrength> knowledgeConceptStrengthList) {
+        this.knowledgeConceptStrengthList = knowledgeConceptStrengthList;
     }
 
     /**
@@ -114,4 +95,5 @@ public class Exercice implements Assessment {
     public void setPrerequisiteLessonList(List<Lesson> prerequisiteLessonList) {
         this.prerequisiteLessonList = prerequisiteLessonList;
     }
+
 }
