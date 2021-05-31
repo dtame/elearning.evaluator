@@ -14,6 +14,10 @@ public class KnowledgeConcept {
     private String keywords;
     private List<SubjectDomain> subjectDomainList;
 
+    public KnowledgeConcept(String title) {
+        this.title = title;
+    }
+
     /**
      * @return the title
      */
@@ -68,5 +72,10 @@ public class KnowledgeConcept {
      */
     public void setSubjectDomainList(List<SubjectDomain> subjectDomainList) {
         this.subjectDomainList = subjectDomainList;
+    }
+
+    @Override
+    public String toString() {
+        return this.title;
     }
 }

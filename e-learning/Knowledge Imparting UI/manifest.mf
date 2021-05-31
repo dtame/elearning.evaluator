@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: cm.e_learning.knowledge_imparting.ui
+OpenIDE-Module-Localizing-Bundle: cm/e_learning/knowledge_imparting/ui/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

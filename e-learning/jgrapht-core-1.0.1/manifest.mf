@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: cm.jgrapht
+OpenIDE-Module-Localizing-Bundle: cm/jgrapht/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

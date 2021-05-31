@@ -11,10 +11,16 @@ public class Exercice implements Assessment {
 
     private String title;
     private String summary;
+    private String code;
     private List<GradeLevel> gradeLevel;
     private String learnerPrerequisiteCompetencies;
     private List<KnowledgeConceptStrength> knowledgeConceptStrengthList;
     private List<Lesson> prerequisiteLessonList;
+
+    public Exercice(String code, String title) {
+        this.code = code;
+        this.title = title;
+    }
 
     /**
      * @return the title
@@ -94,6 +100,34 @@ public class Exercice implements Assessment {
     @Override
     public void setPrerequisiteLessonList(List<Lesson> prerequisiteLessonList) {
         this.prerequisiteLessonList = prerequisiteLessonList;
+    }
+
+    /**
+     * @return the code
+     */
+    public String getCode() {
+        return code;
+    }
+
+    /**
+     * @param code the code to set
+     */
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    /**
+     * @return the gradeLevel
+     */
+    public List<GradeLevel> getGradeLevel() {
+        return gradeLevel;
+    }
+
+    /**
+     * @param gradeLevel the gradeLevel to set
+     */
+    public void setGradeLevel(List<GradeLevel> gradeLevel) {
+        this.gradeLevel = gradeLevel;
     }
 
 }

@@ -1,6 +1,7 @@
 package cm.e_learning.knowledge_imparting.core;
 
-import java.util.List;
+import org.jgrapht.Graph;
+import org.jgrapht.graph.DefaultEdge;
 
 /**
  * @document Course
@@ -9,5 +10,7 @@ import java.util.List;
  */
 public class Course {
 
-    private List<Lesson> lessonList;
+    private String code;
+    private String name;
+    private Graph<Lesson, DefaultEdge> lessonList;
 }

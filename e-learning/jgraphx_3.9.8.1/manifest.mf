@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: cm.e_learning.jgraphx
+OpenIDE-Module-Localizing-Bundle: cm/e_learning/jgraphx/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
